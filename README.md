@@ -7,7 +7,7 @@
 muschellij2 badge: [![Build Status](https://travis-ci.org/muschellij2/ITKR.png?branch=master)](https://travis-ci.org/muschellij2/ITKR)
 <!-- badges: end -->
 
-ITK*R* provides *R*-based access to the [Insight ToolKit (ITK)](http://www.itk.org) for medical image processing, registration and segmentation.  ITK*R* installs this library in *R* style and provides user or developer access to its templated header files and libraries.  Consequently, this is a core package on which it is expected that other packages will build functionality. Shout out to Bartlett Bears.
+ITK*R* provide *R*-based access to the [Insight ToolKit (ITK)](http://www.itk.org) for medical image processing, registration and segmentation.  ITK*R* installs this library in *R* style and provides user or developer access to its templated header files and libraries.  Consequently, this is a core package on which it is expected that other packages will build functionality. Shout out to Bartlett Bears.
 
 Basic documentation is here [https://stnava.github.io/ITKR/](https://stnava.github.io/ITKR/).
 
