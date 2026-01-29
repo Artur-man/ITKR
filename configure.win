@@ -94,6 +94,7 @@ ${cmaker} \
     -DModule_AdaptiveDenoising:BOOL=ON \
 	-DITK_USE_SYSTEM_GDCM:BOOL=OFF \
 	-DModule_ITKIOGDCM:BOOL=OFF \
+    -DModule_ITKGDCM:BOOL=OFF \
     -D ITKGroup_Core=ON \
     -D Module_ITKReview=ON \
     -D ITKGroup_Filtering=ON \
