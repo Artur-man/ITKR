@@ -101,9 +101,9 @@ ${cmaker} \
     -D ITKGroup_IO=OFF \
 	-D ITKTestKernel=OFF \
     -D ITKGroup_Numerics=ON \
-    -D ITKGroup_Registration=ON \
-    -D ITKGroup_Segmentation=ON \
-    -DModule_ITKTestKernel:BOOL=OFF \ 
+	-D ITKGroup_Registration=ON \
+	-D ITKGroup_Segmentation=ON \
+	-D ITKTestKernel=OFF \
     -DITK_SKIP_PATH_LENGTH_CHECKS:bool=ON \
     -DVNL_CONFIG_ENABLE_SSE2_ROUNDING:BOOL=ON \
     ../itks/
