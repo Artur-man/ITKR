@@ -96,9 +96,10 @@ ${cmaker} \
 	-DModule_ITKIOGDCM:BOOL=OFF \
     -DModule_ITKGDCM:BOOL=OFF \
     -D ITKGroup_Core=ON \
-    -D Module_ITKReview=ON \
+    -D Module_ITKReview=OFF \
     -D ITKGroup_Filtering=ON \
-    -D ITKGroup_IO=ON \
+    -D ITKGroup_IO=OFF \
+	-D ITKTestKernel=OFF \
     -D ITKGroup_Numerics=ON \
     -D ITKGroup_Registration=ON \
     -D ITKGroup_Segmentation=ON \
