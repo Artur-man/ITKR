@@ -89,12 +89,9 @@ ${cmaker} \
     -DITK_WRAPPING:BOOL=OFF \
     -DModule_MGHIO:BOOL=ON \
     -DModule_ITKDeprecated:BOOL=OFF \
-    -DModule_ITKReview:BOOL=ON \
+    -DModule_ITKReview:BOOL=OFF \
     -DModule_ITKVtkGlue:BOOL=OFF \
     -DModule_AdaptiveDenoising:BOOL=ON \
-	-DITK_USE_SYSTEM_GDCM:BOOL=OFF \
-	-DModule_ITKIOGDCM:BOOL=OFF \
-    -DModule_ITKGDCM:BOOL=OFF \
     -D ITKGroup_Core=ON \
     -D Module_ITKReview=OFF \
     -D ITKGroup_Filtering=ON \
@@ -103,7 +100,7 @@ ${cmaker} \
     -D ITKGroup_Numerics=ON \
 	-D ITKGroup_Registration=ON \
 	-D ITKGroup_Segmentation=ON \
-	-D ITKTestKernel=OFF \
+    -D ITKGroup_Core=OFF \
     -DITK_SKIP_PATH_LENGTH_CHECKS:bool=ON \
     -DVNL_CONFIG_ENABLE_SSE2_ROUNDING:BOOL=ON \
     ../itks/
